@@ -1,0 +1,66 @@
+body{
+	background-color: white;
+	font-family: 'Open Sans', 'myOpenSans',sans-serif;
+}
+
+@font-face{
+	font-family: myOpenSans;
+	src: url("../res/fonts/OpenSans-Light.ttf");
+}
+
+.nav-admin{
+	background: #368ee0;
+	color: white;
+}
+.navbar-brand{
+	color: white !important;
+}
+.navbar-brand:hover{
+	color: #2c3e50 !important;
+}
+
+.navbar-default {
+   border: 0px;
+   border-radius: 0px;
+}
+
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus {	
+    background-color: white;
+    color: #2c3e50 !important;
+}
+
+.nav.navbar-nav.navbar-right li a{
+	color: white;
+
+}
+li:hover{
+	cursor: pointer;
+}
+
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus{    
+	color: #2c3e50 !important;
+	background-color: white;
+
+ }
+
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #368ee0;
+    color: white !important;
+}
+
+.dropdown-menu > li > a{
+	color: #2c3e50 !important;
+	text-align: center;
+}
+
+
+.navbar-default .navbar-nav>.open>a:focus{
+	color: #2c3e50 !important;
+	background-color: white;
+}
+
+
+

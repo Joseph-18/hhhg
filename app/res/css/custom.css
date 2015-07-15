@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 0px;
+
+}
+.btn-primary {
+    background: #368ee0;
+    border-color: #368ee0;
+
+}
+.form-control{
+	border-radius: 0px;
+}
+
